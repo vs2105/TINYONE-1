@@ -1,0 +1,92 @@
+ /*   section heroimg css  */
+ .heroimg{
+	 padding:60px 0 105px;
+	 background-color:#fcdb00;
+ }
+.logo{
+	display:inline-block;
+	height:48px;
+} 
+ .navbar ul{
+	 display:inline-block;
+ }
+ .navbar li{
+	 display:inline-block;
+	 margin-right:35px;
+ }
+ .navbar li:last-child{
+	 margin-right:0;
+ }
+.navbar li a{
+	padding:18px;
+	font-size:22px;
+	font-weight:bold;
+	color:#010101;
+	text-transform:capitalize;
+	height:48px;
+	display:inline-block;
+	line-height:48px;
+	text-decoration:none;
+}
+.ipad{
+	margin-left:35px;
+}
+.inspire{
+	margin-top:70px;
+}
+.brandlink li{
+	display:inline-block;
+	margin-right:38px;
+}
+.brandlink li i{
+	font-size:40px;
+	color:#010101;
+}
+/*         feature section css        */
+
+
+.featuresection{
+	padding:120px 0 70px;
+}
+.thumnail{
+	margin-bottom:90px;
+}
+.thumbHeading{
+	color:#010101;
+	font-weight:bold;
+	font-size:22px;
+	margin-bottom:15px;
+	font-family: 'Poppins', sans-serif;
+}
+..thumbpara{
+	font-size:16px;
+	color:#898989;
+}
+.thumbIcon i{
+	font-size:42px;
+}
+
+/*footer section css         */
+
+.footer{
+	padding:90px 0 140px;
+	background-color:#010101;
+}
+.socialIcons{
+     margin-bottom:130px;
+}
+.socialIcons li{
+	display:inline-block;
+	margin-right:30px;	
+}
+.socialIcons li i{
+	font-size:35px;
+	color:#fcdb00;
+}
+.footerlink li, .footerlink li a {
+	color:#ffffff;
+	font-size:16px;
+}
+.firstcap li a{
+	text-transform:capitalize;
+}

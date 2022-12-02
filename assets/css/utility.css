@@ -1,0 +1,137 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	font-family: 'Roboto',sans-serif;
+}
+.text-right{
+	text-align:right;
+}
+.text-left{
+	text-align:left;
+}
+.text-center{
+	text-align:center;
+}
+.mb-70{
+	margin-bottom:70;
+}
+.mb-80{
+	margin-bottom:80px;
+}
+.px-30{
+	padding:0 30px;
+}
+
+.container{
+	width:1100px;
+	margin:0 auto;
+}
+.row, .row::after, .row::before{
+	clear:both;
+	display:table;
+	width:100%;
+}
+a:link, a:visited{
+	text-decoration:none;
+}
+[class ^='col-']{
+	float:left;
+	padding:0 15px;
+}
+ul{
+	list-style:none;
+}
+.col-1{
+	width:calc(100% * 1 / 12);
+}
+
+.col-2{
+	width:calc(100% * 2 / 12);
+}
+.col-3{
+	width:calc(100% * 3 / 12);
+}
+.col-4{
+	width:calc(100% * 4 / 12);
+}
+.col-5{
+	width:calc(100% * 5 / 12);
+}
+.col-6{
+	width:calc(100% * 6 / 12);
+}
+.col-9{
+	width:calc(100% * 9 / 12);
+}
+.col-10{
+	width:calc(100% * 10 / 12);
+}
+.col-12{
+	width:calc(100% * 12 / 12);
+}
+.col-offset-2{
+	margin-left:calc(100% * 2 / 12);
+}
+
+.col-offset-1{
+	margin-left:calc(100% * 1 / 12);
+}
+.pri-heading{
+	font-size:32px;
+	margin-bottom:22px;
+	color:#010101;
+	font-family: 'Poppins', sans-serif;
+}
+.sec-heading{
+	font-size:20px;
+	margin-bottom:22px;
+	color:#313841;
+	font-weight:400;
+	font-family: 'Poppins', sans-serif;
+}
+.para{
+	color:#555555;
+	margin-bottom:40px;
+	font-size:16px;
+}
+/*-----------footer section css starts*/ 
+
+.footer .pri-heading{
+	color:#fcdb00;
+}
+.footer .sec-heading{
+	color:#898989;
+	margin-bottom:40px;
+}
+.btn-primary{
+	height:50px;
+	background-color:#fcdb00;
+	width:125px;
+	margin-left:20px;
+	cursor:pointer;
+	border-radius:5px;
+	text-transform:uppercase;
+	color:#010101;
+	font-size:16px;
+	font-weight:bold;
+	 border:1px solid #fcdb00;
+}
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:Active{
+	color:#fcdb00;
+	background-color:#010101;
+}
+.form-control{
+	height:50px;
+	border-radius:5px;
+	border:0;
+	width:calc(100% - 150px);
+	padding:0 25px;
+	outline:0;
+	color:#010101
+}
+.form-control::placeholder{
+	color:#898989
+}
